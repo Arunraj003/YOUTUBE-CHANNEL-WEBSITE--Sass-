@@ -1,0 +1,11 @@
+@use "../abstract/variable";
+@import "../abstract/variable";
+// global
+
+.font-ta {
+    font-family: $font-tamil;
+}
+.font-ta.color-anima{
+    animation: color-change 10s infinite;
+    transition: 500ms;
+}

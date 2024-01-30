@@ -1,1 +1,17 @@
 // main scss
+
+
+//Abstract
+
+//base
+@import "./base/reset";
+@import "./base/global";
+
+// Utilities
+@import "./Utilities/animations";
+
+//Components
+@import "./components/button";
+
+//layouts
+@import "./layouts/header";

@@ -1,0 +1,22 @@
+@use "../abstract/variable" as var;
+@use "../abstract/functions" as func;
+
+.btn {
+    padding: 0.8rem 1.6rem; //1 rem - 16px
+    line-height: 1;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    font-weight: 600;
+    display: inline-block;
+    
+    &-primary{
+        background-color: func.theme-colors();
+        color: #fff;
+        transition: 0.3s;
+        
+        &:hover{
+            background-color: func.theme-colors("primary-hover");
+        }
+    }
+}

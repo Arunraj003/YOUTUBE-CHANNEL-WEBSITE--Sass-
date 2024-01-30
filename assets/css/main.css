@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@400;500&display=swapfamily=Poppins:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.font-ta {
+  font-family: "Mukta Malar", sans-serif;
+}
+
+.font-ta.color-anima {
+  animation: color-change 10s infinite;
+  transition: 500ms;
+}
+
+@keyframes color-change {
+  0% {
+    color: red;
+  }
+  50% {
+    color: teal;
+  }
+  100% {
+    color: maroon;
+  }
+}
+.btn {
+  padding: 0.8rem 1.6rem;
+  line-height: 1;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  font-weight: 600;
+  display: inline-block;
+}
+.btn-primary {
+  background-color: #B800FF;
+  color: #fff;
+  transition: 0.3s;
+}
+.btn-primary:hover {
+  background-color: #59007c;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 20rem;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+}
+.header--menu {
+  display: flex;
+  list-style: none;
+  text-transform: uppercase;
+  align-items: center;
+}
+.header--menu__item > a {
+  margin-right: 1.5rem;
+  font-size: 14px;
+  font-weight: 600;
+  color: #242424;
+  transition: 200ms;
+}
+.header--menu__item > a:hover {
+  color: #B800FF;
+}
+.header--menu__item > a.active {
+  color: #B800FF;
+}/*# sourceMappingURL=main.css.map */
